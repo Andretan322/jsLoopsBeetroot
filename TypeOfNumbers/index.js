@@ -31,13 +31,14 @@ function typeOfNumbers() {
         }
     }
 
-    let message = `The count of positive: ${positive}\n
-    The count of negative: ${negative}\n
-    The count of zero's: ${zero}\n
-    The count of odds: ${odds}\n
+    let message = `The count of positive: ${positive}<br>
+    The count of negative: ${negative}<br>
+    The count of zero's: ${zero}<br>
+    The count of odds: ${odds}<br>
     The count of evens: ${evens}.`
 
-    document.write(message);
+    const text = document.getElementById("text");
+    text.innerHTML = message;
 }
 
 
