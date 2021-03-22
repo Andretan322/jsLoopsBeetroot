@@ -1,11 +1,5 @@
 'use strict';
 
-function numberLength() {
-    let number = prompt("Type the Number");
-    number = String(Math.abs(number));
-    alert(number.length);
-}
-
 function typeOfNumbers() {
     let positive = 0;
     let negative = 0;
