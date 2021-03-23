@@ -11,3 +11,20 @@ function powerNumbers() {
         text.innerHTML += `<br>`
     }
 }
+
+
+// Second variant with two functions
+let i = 2;
+
+function getPow () {
+    for(i; i < 10; i++) {
+        pow()
+    }
+}
+
+function pow() {
+    for(let j = 1; j < 10; j++) {
+        console.log(`${i}^${j} = ${Math.pow(i, j)} `);
+    }
+    console.log("");
+}
